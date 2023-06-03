@@ -27,6 +27,10 @@ function Navbar() {
     if(page === "Login") {
       navigate("/");
     }
+
+    if(page === "SignUp") {
+      navigate("/")
+    }
     setAnchorElNav(null);
   };
 
